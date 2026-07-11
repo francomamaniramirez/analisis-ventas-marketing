@@ -22,6 +22,21 @@ Este proyecto fue desarrollado como trabajo integrador del **Taller de Data Anal
 El objetivo consistió en analizar información de ventas, clientes y campañas de marketing para comprender el comportamiento comercial, detectar patrones y obtener información útil para la toma de decisiones mediante un proceso completo de análisis de datos.
 
 ---
+## 📘 Notebook
+
+Análisis completo realizado en Google Colab:
+
+[▶ Abrir Notebook](notebook/analisis_ventas_marketing.ipynb)
+
+---
+
+## 🌐 Demo
+
+Página del proyecto:
+
+https://francomamaniramirez.github.io/analisis-ventas-marketing/
+
+---
 
 # 📈 Métricas del proyecto
 
@@ -292,7 +307,7 @@ git clone https://github.com/TU-USUARIO/analisis-ventas-marketing.git
 pip install pandas numpy matplotlib seaborn plotly
 ```
 
-3. Abrir el Notebook ubicado en la carpeta `notebook`.
+3. Abrir el Notebook ubicado en la carpeta `[▶ Abrir Notebook](notebook/analisis_ventas_marketing.ipynb)`.
 
 4. Ejecutar todas las celdas en Google Colab o Jupyter Notebook.
 
