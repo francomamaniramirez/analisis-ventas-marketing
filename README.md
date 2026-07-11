@@ -22,7 +22,7 @@ Este proyecto fue desarrollado como trabajo integrador del **Taller de Data Anal
 El objetivo consistió en analizar información de ventas, clientes y campañas de marketing para comprender el comportamiento comercial, detectar patrones y obtener información útil para la toma de decisiones mediante un proceso completo de análisis de datos.
 
 ---
-## 📘 Notebook
+
 ## 📘 Notebook
 
 Análisis completo desarrollado en Google Colab:
