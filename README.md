@@ -129,7 +129,7 @@ Se trabajó con tres datasets relacionados:
 | Tecnología | Aplicación |
 |------------|------------|
 | Python | Desarrollo del proyecto |
-| Pandas | Limpieza y transformación |
+| Pandas | Limpieza y transformación de datos |
 | NumPy | Cálculos estadísticos |
 | Matplotlib | Visualizaciones |
 | Seaborn | Histogramas, Boxplots y Heatmaps |
@@ -167,3 +167,143 @@ Visualización
         │
         ▼
 Conclusiones
+```
+
+---
+
+# 📊 Principales hallazgos
+
+📌 La **cantidad vendida** presentó la correlación más alta con los ingresos (**0.77**).
+
+📌 El **precio** mostró una correlación positiva moderada (**0.56**).
+
+📌 Se identificó un cambio de tendencia a partir de mayo, donde los ingresos disminuyen y luego permanecen relativamente estables.
+
+📌 Las categorías de productos presentan un comportamiento equilibrado en cantidad de ventas e ingresos.
+
+📌 Las campañas concentran aproximadamente el **77 % de las ventas registradas**, aunque el ingreso promedio por operación prácticamente no varía respecto de las ventas sin campaña.
+
+---
+
+# 📈 Visualizaciones
+
+## Distribución de ingresos
+
+![Histograma](images/histograma_ingresos.png)
+
+---
+
+## Boxplot de ingresos
+
+![Boxplot](images/boxplot_ingresos.png)
+
+---
+
+## Evolución mensual
+
+![Evolución mensual](images/evolucion_mensual.png)
+
+---
+
+## Correlación
+
+![Mapa de calor](images/correlacion_heatmap.png)
+
+---
+
+## Campañas de marketing
+
+![Campañas](images/campanas_marketing.png)
+
+---
+
+# 💡 Conclusiones
+
+Este proyecto permitió desarrollar un proceso completo de análisis de datos, desde la preparación de la información hasta la obtención de conclusiones respaldadas por evidencia estadística y visual.
+
+Los resultados muestran que la cantidad vendida constituye el principal factor asociado al crecimiento de los ingresos, mientras que el precio presenta una influencia moderada.
+
+También se identificó un cambio de comportamiento durante el año y se observó que las campañas favorecen principalmente el aumento del volumen comercial, sin modificar significativamente el ingreso promedio por operación.
+
+En conjunto, el proyecto demuestra cómo un enfoque estructurado de Data Analytics permite transformar datos en información útil para comprender el comportamiento de un negocio y apoyar la toma de decisiones.
+
+---
+
+# 📁 Estructura del proyecto
+
+```text
+📦 analisis-ventas-marketing
+│
+├── index.html
+├── README.md
+├── LICENSE
+│
+├── 📁 data
+│   ├── ventas.csv
+│   ├── marketing.csv
+│   └── clientes.csv
+│
+├── 📁 notebook
+│   └── analisis_ventas_marketing.ipynb
+│
+└── 📁 images
+    ├── histograma_ingresos.png
+    ├── boxplot_ingresos.png
+    ├── evolucion_mensual.png
+    ├── correlacion_heatmap.png
+    └── campanas_marketing.png
+```
+
+---
+
+# 🚀 Cómo ejecutar el proyecto
+
+## Opción 1: Google Colab
+
+Abrir directamente el Notebook:
+
+[▶ Abrir Notebook en Google Colab](https://colab.research.google.com/drive/1SlyufwWf6CZNrkMH1MEektI798JrW0jq?usp=sharing)
+
+---
+
+## Opción 2: Ejecución local
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/francomamaniramirez/analisis-ventas-marketing.git
+```
+
+Instalar dependencias:
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly
+```
+
+Abrir el notebook:
+
+```text
+notebook/analisis_ventas_marketing.ipynb
+```
+
+---
+
+# 🚧 Próximas mejoras
+
+- Incorporar métricas de rentabilidad.
+- Analizar estacionalidad mediante series temporales.
+- Realizar segmentación de clientes.
+- Construir un dashboard interactivo.
+- Implementar modelos predictivos para estimar ventas futuras.
+
+---
+
+# 👨‍💻 Autor
+
+## Franco Mamani Ramírez
+
+🎓 Estudiante de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+
+---
+
+⭐ Si este proyecto te resultó interesante, podés dejar una estrella al repositorio.
