@@ -23,18 +23,19 @@ El objetivo consistió en analizar información de ventas, clientes y campañas 
 
 ---
 ## 📘 Notebook
+## 📘 Notebook
 
-Análisis completo realizado en Google Colab:
+Análisis completo desarrollado en Google Colab:
 
-[▶ Abrir Notebook](notebook/analisis_ventas_marketing.ipynb)
+[▶ Abrir Notebook en Google Colab](https://colab.research.google.com/drive/1SlyufwWf6CZNrkMH1MEektI798JrW0jq?usp=sharing)
 
 ---
 
-## 🌐 Demo
+### 🌐 Demo
 
-Página del proyecto:
+Página web del proyecto:
 
-https://francomamaniramirez.github.io/analisis-ventas-marketing/
+[Ver página en GitHub Pages](https://francomamaniramirez.github.io/analisis-ventas-marketing/)
 
 ---
 
